@@ -8,7 +8,8 @@
     "build": "tsc -b && bunx --bun vite build",
     "lint": "eslint .",
     "preview": "bunx --bun vite preview",
-    "pretty": "prettier --write . --end-of-line crlf"
+    "pretty": "prettier --write . --end-of-line crlf",
+    "deploy": "gh-pages -d ../dist"
   },
   "dependencies": {
     "lucide-react": "^1.14.0",

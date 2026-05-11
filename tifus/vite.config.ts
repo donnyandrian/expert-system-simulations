@@ -15,7 +15,7 @@ export default defineConfig({
     build: {
         minify: true,
         assetsInlineLimit: 0,
-        outDir: "dist/tifus",
+        outDir: "../dist/tifus",
     },
     resolve: {
         alias: {
